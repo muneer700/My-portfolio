@@ -55,7 +55,7 @@ export default function Navbar() {
       <nav className="navgrid" aria-label="Main">
         <a href="#home" className="logo" onClick={() => setOpen(false)}>
           <span className="logo-mark">M</span>
-          Muneer
+          MRT
         </a>
 
         <div className={open ? 'pill open' : 'pill'} id="site-menu">
